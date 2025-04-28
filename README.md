@@ -76,6 +76,26 @@ and the backend securely communicates with OpenAI's API.
 
 ---
 
+## OpenAI Backend Server Project - How It Works 📋
+
+1. The Flutter app (`chatgpt_app`) sends a POST request to this server at `/chat`.
+2. The server forwards the message to the OpenAI API using the API key.
+3. The OpenAI API returns a response.
+4. The server sends this response back to the Flutter app.
+
+---
+
+## OpenAI Backend Server Project - Technologies Used ⚙️
+
+| Technology | Purpose |
+|:-----------|:--------|
+| **Node.js** | Backend runtime environment |
+| **Express.js** | Server framework to handle HTTP requests |
+| **Axios** | HTTP client to send requests to OpenAI API |
+| **OpenAI API** | Generates AI responses based on user input |
+
+---
+
 [AimJ-dilini](https://github.com/AimJ-dilini)
 
 ✨
