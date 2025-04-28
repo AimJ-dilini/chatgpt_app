@@ -43,17 +43,17 @@ and the backend securely communicates with OpenAI's API.
 
 1. **Clone this repo**
    ```bash
-   git clone https://github.com/your-username/chatgpt_app.git
+   git clone https://github.com/AimJ-dilini/chatgpt_app.git
    cd chatgpt_app
    ```
 
 2. **Setup your own backend**
+   - The backend server project for this app is hosted in a private repository.
    - You must create your own backend server.
    - The backend server will:
      - Receive user messages
      - Forward them to OpenAI
-     - Send OpenAI's replies back to the app
-   - *(The backend project is private for security reasons and not included here.)*
+     - Send OpenAI's replies back to the app 
 
 3. **Update backend URL**
    - Open the Flutter project.
@@ -72,7 +72,7 @@ and the backend securely communicates with OpenAI's API.
 - Without a backend server, this app **will not** receive any AI responses.
 - You must create and connect your own backend server (using Node.js + Express) to fully use the app.
 - Keep your OpenAI API key **safe** — never add it to the Flutter app code.
-- The backend server project for this is private repository
+- *(The backend server for this app is hosted in a private repository.)*
 
 ---
 
