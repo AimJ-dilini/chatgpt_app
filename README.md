@@ -1,5 +1,4 @@
 
-```markdown
 # ChatGPT Flutter App
 
 This is a simple ChatGPT app built using Flutter.  
